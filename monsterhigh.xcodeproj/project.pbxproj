@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1802932CDE7272009D6644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802922CDE7272009D6644 /* AppDelegate.swift */; };
+		FB1802952CDE7272009D6644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802942CDE7272009D6644 /* SceneDelegate.swift */; };
+		FB1802972CDE7272009D6644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802962CDE7272009D6644 /* ViewController.swift */; };
+		FB18029A2CDE7272009D6644 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB1802992CDE7272009D6644 /* Base */; };
+		FB18029C2CDE7273009D6644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB18029B2CDE7273009D6644 /* Assets.xcassets */; };
+		FB18029F2CDE7273009D6644 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB18029E2CDE7273009D6644 /* Base */; };
+		FB1802AA2CDE7273009D6644 /* monsterhighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802A92CDE7273009D6644 /* monsterhighTests.swift */; };
+		FB1802B42CDE7273009D6644 /* monsterhighUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802B32CDE7273009D6644 /* monsterhighUITests.swift */; };
+		FB1802B62CDE7273009D6644 /* monsterhighUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1802B52CDE7273009D6644 /* monsterhighUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1802A62CDE7273009D6644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1802872CDE7272009D6644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB18028E2CDE7272009D6644;
+			remoteInfo = monsterhigh;
+		};
+		FB1802B02CDE7273009D6644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1802872CDE7272009D6644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB18028E2CDE7272009D6644;
+			remoteInfo = monsterhigh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB18028F2CDE7272009D6644 /* monsterhigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monsterhigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1802922CDE7272009D6644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB1802942CDE7272009D6644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB1802962CDE7272009D6644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB1802992CDE7272009D6644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB18029B2CDE7273009D6644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB18029E2CDE7273009D6644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB1802A02CDE7273009D6644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1802A52CDE7273009D6644 /* monsterhighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterhighTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1802A92CDE7273009D6644 /* monsterhighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterhighTests.swift; sourceTree = "<group>"; };
+		FB1802AF2CDE7273009D6644 /* monsterhighUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterhighUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1802B32CDE7273009D6644 /* monsterhighUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterhighUITests.swift; sourceTree = "<group>"; };
+		FB1802B52CDE7273009D6644 /* monsterhighUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterhighUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB18028C2CDE7272009D6644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802A22CDE7273009D6644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802AC2CDE7273009D6644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1802862CDE7272009D6644 = {
+			isa = PBXGroup;
+			children = (
+				FB1802912CDE7272009D6644 /* monsterhigh */,
+				FB1802A82CDE7273009D6644 /* monsterhighTests */,
+				FB1802B22CDE7273009D6644 /* monsterhighUITests */,
+				FB1802902CDE7272009D6644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1802902CDE7272009D6644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB18028F2CDE7272009D6644 /* monsterhigh.app */,
+				FB1802A52CDE7273009D6644 /* monsterhighTests.xctest */,
+				FB1802AF2CDE7273009D6644 /* monsterhighUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1802912CDE7272009D6644 /* monsterhigh */ = {
+			isa = PBXGroup;
+			children = (
+				FB1802C22CDE8175009D6644 /* Controlador */,
+				FB1802922CDE7272009D6644 /* AppDelegate.swift */,
+				FB1802942CDE7272009D6644 /* SceneDelegate.swift */,
+				FB1802962CDE7272009D6644 /* ViewController.swift */,
+				FB1802982CDE7272009D6644 /* Main.storyboard */,
+				FB18029B2CDE7273009D6644 /* Assets.xcassets */,
+				FB18029D2CDE7273009D6644 /* LaunchScreen.storyboard */,
+				FB1802A02CDE7273009D6644 /* Info.plist */,
+			);
+			path = monsterhigh;
+			sourceTree = "<group>";
+		};
+		FB1802A82CDE7273009D6644 /* monsterhighTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1802A92CDE7273009D6644 /* monsterhighTests.swift */,
+			);
+			path = monsterhighTests;
+			sourceTree = "<group>";
+		};
+		FB1802B22CDE7273009D6644 /* monsterhighUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1802B32CDE7273009D6644 /* monsterhighUITests.swift */,
+				FB1802B52CDE7273009D6644 /* monsterhighUITestsLaunchTests.swift */,
+			);
+			path = monsterhighUITests;
+			sourceTree = "<group>";
+		};
+		FB1802C22CDE8175009D6644 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				FB1802C42CDE81FA009D6644 /* Estilo */,
+				FB1802C32CDE8181009D6644 /* Vistas */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+		FB1802C32CDE8181009D6644 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		FB1802C42CDE81FA009D6644 /* Estilo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Estilo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB18028E2CDE7272009D6644 /* monsterhigh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1802B92CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhigh" */;
+			buildPhases = (
+				FB18028B2CDE7272009D6644 /* Sources */,
+				FB18028C2CDE7272009D6644 /* Frameworks */,
+				FB18028D2CDE7272009D6644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = monsterhigh;
+			productName = monsterhigh;
+			productReference = FB18028F2CDE7272009D6644 /* monsterhigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1802A42CDE7273009D6644 /* monsterhighTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1802BC2CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhighTests" */;
+			buildPhases = (
+				FB1802A12CDE7273009D6644 /* Sources */,
+				FB1802A22CDE7273009D6644 /* Frameworks */,
+				FB1802A32CDE7273009D6644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1802A72CDE7273009D6644 /* PBXTargetDependency */,
+			);
+			name = monsterhighTests;
+			productName = monsterhighTests;
+			productReference = FB1802A52CDE7273009D6644 /* monsterhighTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB1802AE2CDE7273009D6644 /* monsterhighUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1802BF2CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhighUITests" */;
+			buildPhases = (
+				FB1802AB2CDE7273009D6644 /* Sources */,
+				FB1802AC2CDE7273009D6644 /* Frameworks */,
+				FB1802AD2CDE7273009D6644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1802B12CDE7273009D6644 /* PBXTargetDependency */,
+			);
+			name = monsterhighUITests;
+			productName = monsterhighUITests;
+			productReference = FB1802AF2CDE7273009D6644 /* monsterhighUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1802872CDE7272009D6644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FB18028E2CDE7272009D6644 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FB1802A42CDE7273009D6644 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB18028E2CDE7272009D6644;
+					};
+					FB1802AE2CDE7273009D6644 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB18028E2CDE7272009D6644;
+					};
+				};
+			};
+			buildConfigurationList = FB18028A2CDE7272009D6644 /* Build configuration list for PBXProject "monsterhigh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1802862CDE7272009D6644;
+			productRefGroup = FB1802902CDE7272009D6644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB18028E2CDE7272009D6644 /* monsterhigh */,
+				FB1802A42CDE7273009D6644 /* monsterhighTests */,
+				FB1802AE2CDE7273009D6644 /* monsterhighUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB18028D2CDE7272009D6644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB18029C2CDE7273009D6644 /* Assets.xcassets in Resources */,
+				FB18029F2CDE7273009D6644 /* Base in Resources */,
+				FB18029A2CDE7272009D6644 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802A32CDE7273009D6644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802AD2CDE7273009D6644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB18028B2CDE7272009D6644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1802972CDE7272009D6644 /* ViewController.swift in Sources */,
+				FB1802932CDE7272009D6644 /* AppDelegate.swift in Sources */,
+				FB1802952CDE7272009D6644 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802A12CDE7273009D6644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1802AA2CDE7273009D6644 /* monsterhighTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1802AB2CDE7273009D6644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1802B42CDE7273009D6644 /* monsterhighUITests.swift in Sources */,
+				FB1802B62CDE7273009D6644 /* monsterhighUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1802A72CDE7273009D6644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB18028E2CDE7272009D6644 /* monsterhigh */;
+			targetProxy = FB1802A62CDE7273009D6644 /* PBXContainerItemProxy */;
+		};
+		FB1802B12CDE7273009D6644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB18028E2CDE7272009D6644 /* monsterhigh */;
+			targetProxy = FB1802B02CDE7273009D6644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB1802982CDE7272009D6644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1802992CDE7272009D6644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB18029D2CDE7273009D6644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB18029E2CDE7273009D6644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1802B72CDE7273009D6644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1802B82CDE7273009D6644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1802BA2CDE7273009D6644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = monsterhigh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhigh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1802BB2CDE7273009D6644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = monsterhigh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhigh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB1802BD2CDE7273009D6644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhighTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monsterhigh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/monsterhigh";
+			};
+			name = Debug;
+		};
+		FB1802BE2CDE7273009D6644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhighTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monsterhigh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/monsterhigh";
+			};
+			name = Release;
+		};
+		FB1802C02CDE7273009D6644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhighUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = monsterhigh;
+			};
+			name = Debug;
+		};
+		FB1802C12CDE7273009D6644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.monsterhighUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = monsterhigh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB18028A2CDE7272009D6644 /* Build configuration list for PBXProject "monsterhigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1802B72CDE7273009D6644 /* Debug */,
+				FB1802B82CDE7273009D6644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1802B92CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1802BA2CDE7273009D6644 /* Debug */,
+				FB1802BB2CDE7273009D6644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1802BC2CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhighTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1802BD2CDE7273009D6644 /* Debug */,
+				FB1802BE2CDE7273009D6644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1802BF2CDE7273009D6644 /* Build configuration list for PBXNativeTarget "monsterhighUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1802C02CDE7273009D6644 /* Debug */,
+				FB1802C12CDE7273009D6644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1802872CDE7272009D6644 /* Project object */;
+}
